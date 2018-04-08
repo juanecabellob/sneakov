@@ -1,7 +1,12 @@
 {
   "name": "sneakov",
   "version": "0.1.0",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:juanecabellob/sneakov.git"
+  },
+  "author": "Juan Cabello <juanecabellob@gmail.com>",
+  "description": "Ideating tool for new products based on combination of words",
   "dependencies": {
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
