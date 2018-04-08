@@ -1,0 +1,45 @@
+.App {
+  height: 100%;
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 3.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-word-box-container {
+  height: 100%;
+  width: 90%;
+  padding: 60px 25px;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.App-word-box-container > .App-word-box {
+  flex: 1 98%;
+}
+
+.App-word-box {
+  display: flex;
+  font-size: xx-large;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 300px;
+}
